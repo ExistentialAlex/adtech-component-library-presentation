@@ -1,40 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/dracula.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/atom-one-dark.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <img src="assets/vue-logo.png" />
+          <div>
+            <h1 class="r-fit-text">AdTech Component Library</h1>
+            <p class="r-fit-text">
+              A Vue component library for Sky AdTech front-end applications
+            </p>
+          </div>
+        </section>
+        <section>
+          <h2>So why do I need this?</h2>
+          <p class="r-fit-text">
+            This library is intended to be a single place to get the baseline
+            components needed to build a front-end web application.
+          </p>
+          <p>The aim is for it be:</p>
+          <ul class="r-stretch">
+            <li>Sky AdTech approved styles</li>
+            <li>Contain all the Sky assets you need to get started</li>
+            <li>Unit tested with 100% coverage</li>
+            <li>Follow modern web development standards</li>
+            <li>
+              <a href="https://www.w3.org/WAI/WCAG2AAA-Conformance">AAA</a>
+              accessible
+            </li>
+          </ul>
+          <p class="r-fit-text">
+            Primarily, this will be a safe starting point for any new or
+            existing AdTech applications looking to have a modern, responsive UI.
+          </p>
+        </section>
+        <section>
+          <section>
+            <h2>How's it made?</h2>
+          </section>
+          <section>
+            <h2>Built with:</h2>
+            <p class="r-hstack justify-start">
+              <img
+                style="margin-right: 2rem"
+                width="100"
+                src="assets/vue-logo.png"
+              /><a href="https://vuejs.org/">VueJs</a>
+              <span style="margin-left: 1rem; margin-right: 1rem">-</span>Modern
+              front-end UI framework
+            </p>
+            <p class="r-hstack justify-start">
+              <img
+                style="margin-right: 2rem"
+                width="100"
+                src="assets/typescript-logo.png"
+              />
+              <a href="https://www.typescriptlang.org/">TypeScript</a
+              ><span style="margin-left: 1rem; margin-right: 1rem">-</span>
+              JavaScript superset
+            </p>
+            <p class="r-hstack justify-start">
+              <img
+                style="margin-right: 2rem"
+                width="100"
+                src="assets/sass-logo.png"
+              />
+              <a href="https://sass-lang.com/">SCSS</a
+              ><span style="margin-left: 1rem; margin-right: 1rem">-</span>CSS
+              pre-compiler
+            </p>
+            <p class="r-hstack justify-start">
+              <img
+                style="margin-right: 2rem"
+                width="100"
+                src="assets/vite-logo.png"
+              />
+              <a href="https://vitejs.dev/">Vite</a
+              ><span style="margin-left: 1rem; margin-right: 1rem">-</span>Next
+              generation, super fast build tool
+            </p>
+          </section>
+          <section>
+            <h2>Tested with:</h2>
+            <p class="r-hstack justify-start">
+              <img
+                style="margin-right: 2rem"
+                width="100"
+                src="assets/vitest-logo.png"
+              />
+              <a href="https://vitest.dev/">Vitest</a
+              ><span style="margin-left: 1rem; margin-right: 1rem">-</span
+              >Testing framework for Vite
+            </p>
+            <p class="r-hstack justify-start">
+              <img
+                style="margin-right: 2rem"
+                width="100"
+                src="assets/eslint-logo.png"
+              />
+              <a href="https://eslint.org/">EsLint</a
+              ><span style="margin-left: 1rem; margin-right: 1rem">-</span
+              >Extensible JS code linting
+            </p>
+          </section>
+        </section>
+        <section>
+          <h2>Why were these chosen?</h2>
+          <p></p>
+        </section>
+      </div>
+    </div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
