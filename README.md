@@ -8,7 +8,7 @@
 
 Presentation about the Sky AdTech component library developed to educate and explain different component library options and what we can do with them.
 
-## Presentation Link [here](https://existentialalex.github.io/adtech-component-library-presentation/)
+Presentation Link [here](https://existentialalex.github.io/adtech-component-library-presentation/)
 
 ## Built With:
 
